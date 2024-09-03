@@ -36,7 +36,7 @@ public class MobileMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 move = new Vector2(0, 0);
+        Vector2 move = new Vector2(0,0);
         if (allowKeyControls)
         {
             move.x = Input.GetAxis("Horizontal");

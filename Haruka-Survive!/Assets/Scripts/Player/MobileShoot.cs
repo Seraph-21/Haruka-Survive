@@ -22,8 +22,8 @@ public class MobileShoot : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //get inputs for A D to put transform rotation and have a sinbgle button
-        if (Input.GetKey(KeyCode.E))
+        //get mouse postition to  be shoot direction
+        if (Input.GetKey("Fire1"))
         {
             if (shootCounter < 0)
             {
